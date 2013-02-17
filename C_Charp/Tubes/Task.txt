@@ -1,0 +1,38 @@
+﻿Marto is a well-known Pernik fighter. He has N tubes with different sizes. Marto also has M-1 friends. His friends also need tubes for fighting.
+Help Marto to cut his own tubes into exactly M parts with same sizes. This size should be maximal possible (bigger tube = better fighter).
+
+Your task is to write a program that finds the biggest possible size of the M tubes which you can cut from the initial Marto’s tubes.
+
+
+Input
+
+The input data should be read from the console.
+On the first input line your program should read the integer N – the number of Marto’s tubes.
+On the second input line there will be the number M – the count of the tubes Marto needs.
+On the next N lines your program should read the sizes of the Marto’s tubes Marto.
+The input data will always be valid and in the format described. There is no need to check it explicitly.
+
+
+Output
+
+The output data should be printed on the console.
+On the only output line you should print the maximal possible size of the M tubes. If it is impossible to cut the tubes with the given criteria write “-1” on the only output line.
+
+
+Constraints
+
+ N will be between 1 and 20 000, inclusive.
+ M will be between 1 and 2 000 000 000, inclusive.
+ The sizes of the tubes will be between 1 and 2 000 000 000, inclusive.
+ Allowed working time for your
+ Allowed memory: 16 MB.
+
+
+Input example		Output example
+
+4			200
+11
+803
+777
+444
+555
