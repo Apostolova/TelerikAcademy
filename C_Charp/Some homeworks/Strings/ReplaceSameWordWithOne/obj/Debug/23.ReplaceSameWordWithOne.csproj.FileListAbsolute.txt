@@ -1,1 +1,0 @@
-C:\Users\Elena\Documents\Visual Studio 2012\Projects\8. StringAndTextProcessing\23.ReplaceSameWordWithOne\bin\Debug\23.ReplaceSameWordWithOne.exe.config
