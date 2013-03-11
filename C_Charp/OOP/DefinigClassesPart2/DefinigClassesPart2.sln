@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Points3D", "Points3D\Points3D.csproj", "{0501B967-E613-4740-A1B5-7E57A9AF36FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList", "GenericList\GenericList.csproj", "{E80100F7-E2AB-45C1-B57E-9E20560D8129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0501B967-E613-4740-A1B5-7E57A9AF36FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0501B967-E613-4740-A1B5-7E57A9AF36FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0501B967-E613-4740-A1B5-7E57A9AF36FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0501B967-E613-4740-A1B5-7E57A9AF36FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80100F7-E2AB-45C1-B57E-9E20560D8129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80100F7-E2AB-45C1-B57E-9E20560D8129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80100F7-E2AB-45C1-B57E-9E20560D8129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80100F7-E2AB-45C1-B57E-9E20560D8129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
