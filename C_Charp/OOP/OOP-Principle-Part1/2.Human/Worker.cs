@@ -10,6 +10,10 @@ namespace _2
         public decimal weekSalary;
         public int workHoursPerDay;
 
+        public Worker()
+        {
+        }
+
         public Worker(string firstName, string lastName, decimal weekSalary, int workHoursPerDay)
             : base(firstName, lastName)
         {
@@ -47,6 +51,15 @@ namespace _2
             return moneyPerHour;
         }
 
+        public override string ToString()
+        {
+            StringBuilder str = new StringBuilder();
+            str.Append(this.firstName + " ");
+            str.Append(this.lastName + " ");
+            str.Append(this.weekSalary + " ");
+            str.Append(this.workHoursPerDay);
+            return str.ToString();
+        }
         
     }
 }
