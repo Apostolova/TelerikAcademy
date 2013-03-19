@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\DefinigClassesPart2\Points3D\bin\Debug\Points3D.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\DefinigClassesPart2\Points3D\bin\Debug\Points3D.exe
+c:\users\elena\documents\visual studio 2012\Projects\DefinigClassesPart2\Points3D\bin\Debug\Points3D.pdb
+c:\users\elena\documents\visual studio 2012\Projects\DefinigClassesPart2\Points3D\obj\Debug\Points3D.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\DefinigClassesPart2\Points3D\obj\Debug\Points3D.exe
+c:\users\elena\documents\visual studio 2012\Projects\DefinigClassesPart2\Points3D\obj\Debug\Points3D.pdb

@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\DivisibleBy3And7\bin\Debug\DivisibleBy3And7.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\DivisibleBy3And7\obj\Debug\DivisibleBy3And7.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\DivisibleBy3And7\bin\Debug\DivisibleBy3And7.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\DivisibleBy3And7\bin\Debug\DivisibleBy3And7.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\DivisibleBy3And7\obj\Debug\DivisibleBy3And7.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\DivisibleBy3And7\obj\Debug\DivisibleBy3And7.pdb

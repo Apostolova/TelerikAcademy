@@ -1,0 +1,3 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\bin\Debug\1.ExtensionSubstring.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\obj\Debug\1.ExtensionSubstring.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\obj\Debug\1.ExtensionSubstring.pdb

@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\03.FirstLastNameLINQ\bin\Debug\03.FirstLastNameLINQ.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\03.FirstLastNameLINQ\obj\Debug\03.FirstLastNameLINQ.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\03.FirstLastNameLINQ\bin\Debug\03.FirstLastNameLINQ.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\03.FirstLastNameLINQ\bin\Debug\03.FirstLastNameLINQ.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\03.FirstLastNameLINQ\obj\Debug\03.FirstLastNameLINQ.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\03.FirstLastNameLINQ\obj\Debug\03.FirstLastNameLINQ.pdb

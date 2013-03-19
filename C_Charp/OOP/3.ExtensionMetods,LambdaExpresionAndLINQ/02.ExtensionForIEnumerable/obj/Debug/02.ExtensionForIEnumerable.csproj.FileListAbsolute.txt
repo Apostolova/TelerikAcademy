@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\02.ExtensionForIEnumerable\bin\Debug\02.ExtensionForIEnumerable.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\02.ExtensionForIEnumerable\obj\Debug\02.ExtensionForIEnumerable.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\02.ExtensionForIEnumerable\bin\Debug\02.ExtensionForIEnumerable.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\02.ExtensionForIEnumerable\bin\Debug\02.ExtensionForIEnumerable.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\02.ExtensionForIEnumerable\obj\Debug\02.ExtensionForIEnumerable.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\02.ExtensionForIEnumerable\obj\Debug\02.ExtensionForIEnumerable.pdb

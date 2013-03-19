@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\05.LambdaExpresion\bin\Debug\05.LambdaExpresion.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\05.LambdaExpresion\obj\Debug\05.LambdaExpresion.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\05.LambdaExpresion\bin\Debug\05.LambdaExpresion.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\05.LambdaExpresion\bin\Debug\05.LambdaExpresion.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\05.LambdaExpresion\obj\Debug\05.LambdaExpresion.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\05.LambdaExpresion\obj\Debug\05.LambdaExpresion.pdb

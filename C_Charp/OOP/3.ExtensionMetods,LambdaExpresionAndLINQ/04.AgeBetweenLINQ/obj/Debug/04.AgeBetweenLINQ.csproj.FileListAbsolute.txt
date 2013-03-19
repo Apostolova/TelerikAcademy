@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\04.AgeBetweenLINQ\bin\Debug\04.AgeBetweenLINQ.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\04.AgeBetweenLINQ\obj\Debug\04.AgeBetweenLINQ.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\04.AgeBetweenLINQ\bin\Debug\04.AgeBetweenLINQ.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\04.AgeBetweenLINQ\bin\Debug\04.AgeBetweenLINQ.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\04.AgeBetweenLINQ\obj\Debug\04.AgeBetweenLINQ.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\04.AgeBetweenLINQ\obj\Debug\04.AgeBetweenLINQ.pdb

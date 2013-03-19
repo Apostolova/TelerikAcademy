@@ -1,0 +1,5 @@
+c:\users\elena\documents\visual studio 2012\Projects\Home\2\bin\Debug\2.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\Home\2\bin\Debug\2.exe
+c:\users\elena\documents\visual studio 2012\Projects\Home\2\bin\Debug\2.pdb
+c:\users\elena\documents\visual studio 2012\Projects\Home\2\obj\Debug\2.exe
+c:\users\elena\documents\visual studio 2012\Projects\Home\2\obj\Debug\2.pdb

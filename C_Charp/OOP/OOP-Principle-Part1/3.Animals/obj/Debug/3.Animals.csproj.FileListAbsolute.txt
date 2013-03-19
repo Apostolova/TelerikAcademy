@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\Home\3.Animals\bin\Debug\3.Animals.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\Home\3.Animals\obj\Debug\3.Animals.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\Home\3.Animals\bin\Debug\3.Animals.exe
+c:\users\elena\documents\visual studio 2012\Projects\Home\3.Animals\bin\Debug\3.Animals.pdb
+c:\users\elena\documents\visual studio 2012\Projects\Home\3.Animals\obj\Debug\3.Animals.exe
+c:\users\elena\documents\visual studio 2012\Projects\Home\3.Animals\obj\Debug\3.Animals.pdb

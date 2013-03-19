@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\OOP-Principle-Part2\1.Surface\bin\Debug\1.Surface.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\OOP-Principle-Part2\1.Surface\obj\Debug\1.Surface.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\OOP-Principle-Part2\1.Surface\bin\Debug\1.Surface.exe
+c:\users\elena\documents\visual studio 2012\Projects\OOP-Principle-Part2\1.Surface\bin\Debug\1.Surface.pdb
+c:\users\elena\documents\visual studio 2012\Projects\OOP-Principle-Part2\1.Surface\obj\Debug\1.Surface.exe
+c:\users\elena\documents\visual studio 2012\Projects\OOP-Principle-Part2\1.Surface\obj\Debug\1.Surface.pdb

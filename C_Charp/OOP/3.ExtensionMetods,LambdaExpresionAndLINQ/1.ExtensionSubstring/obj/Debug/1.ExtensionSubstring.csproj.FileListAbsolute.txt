@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\bin\Debug\1.ExtensionSubstring.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\bin\Debug\1.ExtensionSubstring.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\bin\Debug\1.ExtensionSubstring.pdb
+c:\users\elena\documents\visual studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\obj\Debug\1.ExtensionSubstring.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\obj\Debug\1.ExtensionSubstring.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.ExtensionMetods,LambdaExpresionAndLINQ\1.ExtensionSubstring\obj\Debug\1.ExtensionSubstring.pdb
