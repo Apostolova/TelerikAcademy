@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\DocumentSystem\bin\Debug\DocumentSystem.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\DocumentSystem\bin\Debug\DocumentSystem.exe
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\DocumentSystem\bin\Debug\DocumentSystem.pdb
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\DocumentSystem\obj\Debug\DocumentSystem.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\DocumentSystem\obj\Debug\DocumentSystem.exe
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\DocumentSystem\obj\Debug\DocumentSystem.pdb

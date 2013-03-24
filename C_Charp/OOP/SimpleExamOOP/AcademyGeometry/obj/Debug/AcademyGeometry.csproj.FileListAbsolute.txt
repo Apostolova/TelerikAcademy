@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\AcademyGeometry\bin\Debug\AcademyGeometry.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\AcademyGeometry\bin\Debug\AcademyGeometry.exe
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\AcademyGeometry\bin\Debug\AcademyGeometry.pdb
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\AcademyGeometry\obj\Debug\AcademyGeometry.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\AcademyGeometry\obj\Debug\AcademyGeometry.exe
+c:\users\elena\documents\visual studio 2012\Projects\SimpleExamOOP\AcademyGeometry\obj\Debug\AcademyGeometry.pdb
