@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin-bottom: 10px">
+        Write a function that groups an array of persons by age, first or last name. The function must return an associative array,<br />
+        with keys - the groups, and values -arrays with persons in this groups<br />
+        Use function overloading (i.e. just one function)
+
+    </div>
+       <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var persons = [
+             { firstName: "Ivan", lastName: "Ivanov", age: 53 },
+             { firstName: "Ivan", lastName: "Petrov", age: 25 },
+             { firstName: "Petur", lastName: "Ivanov", age: 31 }
+        ]
+
+        var groupedByAge = grouped(persons, "age");
+        var groupedByFirstName = grouped(persons, "firstName");
+
+        for (var i in groupedByAge) {
+            jsConsole.writeLine("Person with this years " + i + " => " + groupedByAge[i]);
+        }
+        for (var i in groupedByFirstName) {
+            jsConsole.writeLine("Person with this first name " + i + " => " + groupedByFirstName[i]);
+        }
+
+        function grouped(person, property) {
+            var array = new Array();
+            for (var i = 0; i < person.length; i++) {
+
+                for (var j in person[i]) {
+
+                    if (j == property) {
+                        array.push(person[i][j]);
+                    }
+                }
+            }
+
+            var wordsCount = {};
+            var word = {};
+            for (var i in array) {
+                word = array[i];
+                if (wordsCount[word]) {
+                    wordsCount[word]++;
+                }
+                else {
+                    wordsCount[word] = 1;
+                }
+            }
+            return wordsCount;
+        }
+    </script>
+</body>
+</html>

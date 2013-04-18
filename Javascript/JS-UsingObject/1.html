@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+ <div style="margin-bottom: 10px">
+     Write functions for working with shapes in  standard Planar coordinate system<br />
+    Points are represented by coordinates P(X, Y)<br />
+    Lines are represented by two points, marking their beginning and ending<br />
+    L(P1(X1,Y1),P2(X2,Y2))<br />
+    Calculate the distance between two points<br />
+    Check if three segment lines can form a triangle<br />
+ </div>
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function point(X1, Y1) {
+            return {
+                X1: X1,
+                Y1: Y1,
+                toString: function () { return "P(" + this.X1 + "," + this.Y1 + ")"; }
+            }
+        }
+
+        function line(start, end) {
+            return {
+                start: start,
+                end: end,
+                toString: function () { return "L(" + start + ", " + end + ")"; }
+            }
+        }
+
+        function distanseBetween2Points(point1, point2)
+        {
+            var distance = Math.sqrt(Math.pow((point2.X1 - point1.X1), 2) + Math.pow((point2.Y1 - point1.Y1), 2));
+            jsConsole.writeLine("Distance is: " + distance);
+        }
+
+        function triangle(line1, line2, line3) {
+            if (line1 < line2 + line3 && line2 < line1 + line3 && line3 < line1 + line2)
+                jsConsole.writeLine("The lines make a triangle");
+            else
+                jsConsole.writeLine("The line didn't make a triangle");
+            }
+
+        function program () {
+            var a = point(5, 6);
+            var b = point(7, 8);
+            var c = point(6, 5);
+            var d = point(8, 3);
+            var e = point(6, 6);
+            var f = point(5, 5);
+            jsConsole.writeLine(line(a, b));
+            jsConsole.writeLine(line(c, d));
+            jsConsole.writeLine(line(e, f));
+            var one = distanseBetween2Points(a, b);
+            var two = distanseBetween2Points(c, d);
+            var three = distanseBetween2Points(e, f);
+           
+            triangle(one, two, three);
+
+        }
+        program();
+    </script>
+</body>
+</html>

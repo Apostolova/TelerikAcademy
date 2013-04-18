@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+    <!--Write an expression that checks for given point (x, y) if it is within the circle K( (1,1), 3)
+    and out of the rectangle R(top=1, left=-1, width=6, height=2).-->
+
+<body>
+    <div id="input">
+    <div class="input">
+    <label for="first">X:</label>
+    <input type="text" id="first"/>
+    <label for="second">Y:</label>
+    <input type="text" id="second"/>
+    </div>
+    <div id="button">
+    <a href="#" onclick="Points()">Check in K(0,5)</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function Points() {
+            var x = jsConsole.readFloat("#first");
+            var y = jsConsole.readFloat("#second");
+            if (((((x - 1) * (x - 1)) + ((y - 1) * (y - 1))) <= 9) && !((x > -1 && x < 1) && (y > 0 && y < 6)))
+               jsConsole.writeLine("The point is inside the circle K((1, 1), 3) and outdise the rectangle");
+            else
+                jsConsole.writeLine("The point is outside the circle K((1, 1), 3) or indise the rectangle");
+        }
+    </script>
+
+</body>
+</html>
+
+

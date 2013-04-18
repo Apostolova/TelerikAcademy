@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin-bottom: 10px">
+        Write a function that removes all elements with a given value<br />
+        var arr = [1,2,1,4,1,3,4,1,111,3,2,1,"1"];<br />
+        arr.remove(1); //arr = [2,4,3,4,111,3,2,"1"];<br />
+        Attach it to the array class and Read about prototype and how to attach methods
+    </div>
+        <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        Array.prototype.remove = function(number)
+        {
+            for (var i = 0; i < this.length; i++) {
+                if (number == this[i])
+                    var remove = this.splice(i, 1);
+            }
+            return this;
+        }
+
+        var arr = [1,2,1,4,1,3,4,1,111,3,2,1,"1"];
+        jsConsole.writeLine(arr);
+        arr.remove(1);
+        jsConsole.writeLine(arr); 
+    </script>
+</body>
+</html>

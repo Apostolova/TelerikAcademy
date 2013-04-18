@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        Write a JavaScript function reverses string and returns itExample: "sample" -> "elpmas".
+    </div>
+    <script>
+        function reverseString(str) {
+            var strReverse = "";
+            for (var i = str.length - 1; i >= 0 ; i--) {
+                strReverse += str[i];
+            }
+            return strReverse;
+        }
+        var word = "sample";
+        console.log("Your word: " + word);
+        console.log("Reverse word: " + reverseString(word));
+        document.writeln(reverseString(word));
+    </script>
+</body>
+</html>

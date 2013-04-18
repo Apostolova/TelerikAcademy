@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin-bottom: 10px; font-size: 20px">
+        Write a function that counts how many times given number appears in given array.
+        Write a test function to check if the function is working correctly.
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var numberArray = [10,15,5,1,5,4,5,10,6,5];
+        var searchNumber = 5;
+        var count = 0;
+        jsConsole.writeLine(numberArray);
+        jsConsole.writeLine("Searched number: " + searchNumber);
+        numberInArray(numberArray, searchNumber);
+        function numberInArray(numberArray, searchNumber)
+        {
+            for (var i = 0; i < numberArray.length; i++) {
+                if (searchNumber === numberArray[i])
+                    count++;
+            }
+            jsConsole.writeLine("Number " + searchNumber + " appears " + count + " times in array");
+        }
+    </script>
+</body>
+</html>

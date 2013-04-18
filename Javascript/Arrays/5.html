@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+       <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var arr = [5, 8, 10, 15, 1, 6, 9];
+        var lenght = arr.length;
+        var arrSorted = [];
+        var minIndex;
+        for (var i= 0; i< lenght; i++)
+        {
+            var min = arr[i];
+            
+         for (var index = 0; index < arr.length ; index++)
+         {
+            if (min > arr[index]) {
+                min = arr[index];
+                minIndex = index;
+            }
+         }
+         arrSorted.push(min);
+         jsConsole.writeLine("arr " +arr);
+         jsConsole.writeLine("sorted " + arrSorted);
+         arr.splice(minIndex, 1);
+        }
+
+    </script>
+
+</body>
+</html>

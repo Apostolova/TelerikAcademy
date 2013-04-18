@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+     <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+      <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var len = 1;
+        var bestLen = 0;
+        var Element = "";
+        var bestElement = "";
+        var array = [3, 2, 3, 4, 2, 2, 4];
+        for (var i = 0; i < array.length - 1; i++)
+        {
+            if (array[i] < array[i + 1]) {
+                Element += array[i] + ", ";
+
+                len++;
+                if (len > bestLen) {
+                    bestLen = len;
+                    bestElement = Element + array[i + 1];
+                }
+            }
+
+            else {
+                len = 1;
+            }
+        }
+        jsConsole.writeLine(array);
+          jsConsole.writeLine( "Maximal sequence is from "+ bestLen + " elements from "+ bestElement);
+    </script>
+
+</body>
+</html>

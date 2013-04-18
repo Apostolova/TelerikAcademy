@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+   <!-- Write an if statement that examines two integer variables and exchanges their values if the first one is greater than the second one.-->
+
+<body>
+    <div id="input">
+    <div class="input">
+    <label for="first">a:</label>
+    <input type="text" id="first"/>
+    <label for="second">b:</label>
+    <input type="text" id="second"/>
+    </div>
+    <div id="button">
+    <a href="#" onclick="Bigger()">Compare</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function Bigger() {
+            var a = jsConsole.readFloat("#first");
+            var b = jsConsole.readFloat("#second");
+            if (a == b)
+                jsConsole.writeLine("There are equals");
+            else {
+                if (a > b) {
+                    var number = a;
+                    a = b;
+                    b = number;
+                    jsConsole.writeLine("The first one is bigger, so exchange values");
+                    jsConsole.writeLine(a);
+                    jsConsole.writeLine(b);
+                }
+                else {
+                    jsConsole.writeLine("Second number is bigger");
+                    jsConsole.writeLine(a);
+                    jsConsole.writeLine(b);
+                }
+            }
+
+        }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+   <!-- Write a script that converts a number in the range [0...999] to a text corresponding to its English pronunciation. Examples:-->
+
+<body>
+     <div id="input">
+    <div class="input">
+    <label for="first">a:</label>
+    <input type="text" id="first"/>
+    </div>
+    <div id="button">
+    <a href="#" onclick="Text() ">Biggest</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function Text() {
+            var numbers = jsConsole.readFloat("#first");
+            var pronunciation = "";
+            var ones = 0;
+            var tens = 0;
+
+            if (parseInt(numbers % 100) != 0) {
+                ones = parseInt(numbers / 100);
+
+                switch (ones) {
+                    case 1:
+                        pronunciation = "One hundred "; break;
+                    case 2:
+                        pronunciation = "Two hundred "; break;
+                    case 3:
+                        pronunciation = "Three hundred "; break;
+                    case 4:
+                        pronunciation = "Four hundred "; break;
+                    case 5:
+                        pronunciation = "Five hundred "; break;
+                    case 6:
+                        pronunciation = "Six hundred "; break;
+                    case 7:
+                        pronunciation = "Seven hundred "; break;
+                    case 8:
+                        pronunciation = "Eight hundred "; break;
+                    case 9:
+                        pronunciation = "Nine hundred "; break;
+                }
+               
+
+                if ((parseInt(numbers % 100) < 20) & (parseInt(numbers % 100) > 9)) {
+                     tens = parseInt(numbers % 100);
+                    if (pronunciation != "")
+                        pronunciation +="and ";
+                    switch (tens) {
+                        case 10:
+                            pronunciation += "Ten "; break;
+                        case 11:
+                            pronunciation += "Eleven "; break;
+                        case 12:
+                            pronunciation += "Twelve "; break;
+                        case 13:
+                            pronunciation += "Thirteen "; break;
+                        case 14:
+                            pronunciation += "Fourteen "; break;
+                        case 15:
+                            pronunciation += "Fifteen "; break;
+                        case 16:
+                            pronunciation += "Sixteen "; break;
+                        case 17:
+                            pronunciation += "Seventeen "; break;
+                        case 18:
+                            pronunciation += "Eighteen "; break;
+                        case 19:
+                            pronunciation += "Nineteen "; break;
+                    }
+                   
+                }
+
+                else {
+                    var a = parseInt(numbers % 100);
+                    if (a != 0) {
+                        tens = parseInt(a / 10);
+                        if (tens == 0)
+                            pronunciation +=" and ";
+                        ones = parseInt(numbers % 10);
+                        switch (tens) {
+                            case 2:
+                                pronunciation += " Twenty "; break;
+                            case 3:
+                                pronunciation += " Thirty "; break;
+                            case 4:
+                                pronunciation += " Fourty "; break;
+                            case 5:
+                                pronunciation += " Fifty "; break;
+                            case 6:
+                                pronunciation += " Sixty "; break;
+                            case 7:
+                                pronunciation += " Seventy "; break;
+                            case 8:
+                                pronunciation += " Eighty "; break;
+                            case 9:
+                                pronunciation += " Ninty "; break;
+                        }
+                        switch (ones) {
+                            case 0:
+                                pronunciation += "Zero"; break;
+                            case 1:
+                                pronunciation += "One "; break;
+                            case 2:
+                                pronunciation += "Two "; break;
+                            case 3:
+                                pronunciation += "Three "; break;
+                            case 4:
+                                pronunciation += "Four "; break;
+                            case 5:
+                                pronunciation += "Five "; break;
+                            case 6:
+                                pronunciation += "Six  "; break;
+                            case 7:
+                                pronunciation += "Seven "; break;
+                            case 8:
+                                pronunciation += "Eight  "; break;
+                            case 9:
+                                pronunciation += "Nine "; break;
+                            default:
+                                break;
+                        }
+                    }
+                    jsConsole.writeLine(pronunciation);
+                }
+            }
+            
+        }
+
+    </script>
+
+</body>
+</html>

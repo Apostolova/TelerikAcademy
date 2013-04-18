@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin-bottom: 10px; font-size: 20px">
+        Write a Function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.
+    </div>
+      <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var array = [15, 6, 2, -8, 4, 3, 1, 1, 4];
+        jsConsole.writeLine(array);
+        biggerThanItsNeighbors();
+        function biggerThanItsNeighbors() {
+            for (var index = 1; index < array.length-1; index++) {
+                if ((array[index] > array[index + 1]) && (array[index] > array[index - 1])) {
+                    jsConsole.writeLine("The element with index " + index + " is first bigger than its two neighbours");
+                    break;
+                }
+                else {
+                    if (index == array.length - 2)
+                        jsConsole.writeLine(-1);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

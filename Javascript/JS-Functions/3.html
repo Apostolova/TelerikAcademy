@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        Write a function that finds all the occurrences of word in a text<br />
+        The search can case sensitive or case insensitive.
+        Use function overloading
+    </div>
+     <div id="js-console"></div>
+    
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var text = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+        var searchingWords = "we";
+        jsConsole.writeLine(text);
+        jsConsole.writeLine("SearchingWords: " + searchingWords);
+       
+        Find();
+        function Find(isSensitive) {
+            isSensitive = isSensitive || "gi";      
+            jsConsole.writeLine(text.match(new RegExp(searchingWords, isSensitive)) ? text.match(new RegExp(searchingWords, isSensitive)).length : '0');
+        }
+
+    </script>
+</body>
+</html>

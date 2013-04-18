@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+   <!--Sort 3 real values in descending order using nested if statements.-->
+
+<body>
+     <div id="input">
+    <div class="input">
+    <label for="first">a:</label>
+    <input type="text" id="first"/>
+    <label for="second">b:</label>
+    <input type="text" id="second"/>
+    <label for="third">c:</label>
+    <input type="text" id="third"/>
+
+    </div>
+    <div id="button">
+    <a href="#" onclick="Biggest() ">Descending</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function Biggest() {
+            var a = jsConsole.readFloat("#first");
+            var b = jsConsole.readFloat("#second");
+            var c = jsConsole.readFloat("#third");
+            if (a > b){
+                if (b > c)
+                    jsConsole.writeLine(a + ", " + b + ", " + c);
+                else
+                    jsConsole.writeLine(a + ", " + c + ", " + b);
+            }
+            if (a < b) {
+                if (a > c)
+                    jsConsole.writeLine(b + ", " + a + ", " + c);
+                else
+                    jsConsole.writeLine(b + ", " + c + ", " + a);
+            }
+            else {
+                if (c > a) {
+
+                    if (b > a)
+                        jsConsole.writeLine(c + ", " + b + ", " + a);
+                    else
+                        jsConsole.writeLine(c + ", " + a + ", " + b);
+                }
+            }
+
+           
+           
+          
+        }
+                
+   
+         
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<!-- Write an expression that checks for given integer if its third digit (right-to-left) is 7. E. g. 1732  true.-->
+
+<body>
+    <div id="input">
+    <div class="input">
+    <label for="first">Input integer number: </label>
+    <input type="text" id="first"/>
+    </div>
+    <div id="button">
+    <a href="#" onclick="ThirdBits()">Check</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function ThirdBits() {
+            var number = jsConsole.readFloat("#first");
+             number = (number / 100) % 10;
+             if ((number >= 7) && (number < 8))
+                 jsConsole.writeLine(true);
+             else
+                 jsConsole.writeLine(false);
+        }
+    </script>
+</body>
+</html>

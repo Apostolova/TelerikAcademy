@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+     <div style="margin-bottom: 10px; font-size: 20px">This program is count how many times we have divs on the web page</div>
+      <div id="js-console"></div>
+    <div>
+       <div>
+           <div></div>
+       </div>
+    </div>
+    
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function divCounts()
+        {
+            var divs = document.getElementsByTagName("div").length;
+            jsConsole.writeLine("We have " + divs + " times div");
+        }
+        divCounts();
+    </script>
+
+</body>
+</html>

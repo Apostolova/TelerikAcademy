@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+   <!-- Write a script that finds the greatest of given 5 variables.-->
+
+<body>
+     <div id="input">
+    <div class="input">
+    <label for="first">a:</label>
+    <input type="text" id="first"/>
+    <label for="second">b:</label>
+    <input type="text" id="second"/>
+    <label for="third">c:</label>
+    <input type="text" id="third"/>
+    <label for="fourth">b:</label>
+    <input type="text" id="fourth"/>
+    <label for="fifth">c:</label>
+    <input type="text" id="fifth"/>
+
+    </div>
+    <div id="button">
+    <a href="#" onclick="Bigger()">Biggest</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+
+    <script>
+        function Bigger() {
+            var a = jsConsole.readFloat("#first");
+            var b = jsConsole.readFloat("#second");
+            var c = jsConsole.readFloat("#third");
+            var d = jsConsole.readFloat("#fourth");
+            var e = jsConsole.readFloat("#fifth");
+            var biggest;
+            if (a > b) {
+                if (a > c)
+                    biggest = a;
+                else
+                    biggest = b;
+            }
+            else {
+                if (b > c)
+                    biggest = b;
+                else
+                    biggest = c;
+            }
+            if (biggest > d) {
+                if (biggest > e)
+                    biggest = biggest;
+                else
+                    biggest = e;
+            }
+            else {
+                if (d > e)
+                    biggest = d;
+                else
+                    biggest = e;
+            }
+            jsConsole.writeLine("Biggest is " + biggest);
+        }
+    </script>
+</body>
+</html>

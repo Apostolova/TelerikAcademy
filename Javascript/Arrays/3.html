@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+       <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var arr = [2, 1, 1, 2, 3, 3, 3, 2, 2, 2, 1];
+        var len=0;
+        var bestLen = 1;
+        var bestElement;
+        var bestStart=0;
+        for (var index = 0; index < arr.length - 1; index++) {
+            if (arr[index] == arr[index + 1]) {
+                len++;
+                if (len > bestLen) {
+                    bestLen = len;
+                    bestElement = arr[index];
+                    bestStart = index;
+                   
+                }
+            }
+            else {
+                len = 1;
+            }
+        }
+        jsConsole.writeLine(arr);
+        jsConsole.writeLine(bestStart);
+        jsConsole.writeLine("Start index=" + bestStart + " element is" +" {" + bestElement + "} " + "with max length " + bestLen);
+        
+    </script>
+</body>
+</html>
+  

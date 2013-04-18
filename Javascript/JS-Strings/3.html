@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        function searchSubstring(text, sub) {
+            text = text.toLowerCase();
+            var nextposition = text.indexOf(sub);
+            var count = 0;
+            while (nextposition > -1) {
+                count++;
+                nextposition = nextposition + 1;
+                nextposition = text.indexOf(sub, nextposition);
+            }
+           return count;
+        }
+
+        var text = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days."
+        var sub = "in";
+        var result = searchSubstring(text, sub);
+        console.log(text);
+        console.log("Word who searching: " + sub);
+        console.log("The word is containt: " + result + " times");
+
+    </script>
+
+</body>
+</html>

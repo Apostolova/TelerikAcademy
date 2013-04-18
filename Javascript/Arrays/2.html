@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+       <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var arr1 = ["az", "sum", "dobre"];
+        var arr2 = ["az", "sam", "dobre", ""];
+        if (arr1.length == arr2.length) {
+            for (var index = 0; index < arr1.length; index++) {
+                if (arr1[index] == arr2[index])
+                    continue;
+                else
+                    jsConsole.writeLine("They is not lexicographically same");
+                break;
+            }
+        }
+        else
+            jsConsole.writeLine("They is not same length, so they not lexicographically same");
+    </script>
+</body>
+</html>

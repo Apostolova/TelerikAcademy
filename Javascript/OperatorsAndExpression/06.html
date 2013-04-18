@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+    <!--Write an expression that checks if given print (x,  y) is within a circle K(O, 5).-->
+
+<body>
+    <div id="input">
+    <div class="input">
+    <label for="first">X:</label>
+    <input type="text" id="first"/>
+    <label for="second">Y:</label>
+    <input type="text" id="second"/>
+    </div>
+    <div id="button">
+    <a href="#" onclick="Points()">Check in K(0,5)</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function Points() {
+            var x = jsConsole.readFloat("#first");
+            var y = jsConsole.readFloat("#second");
+            if (((x * x) + (y * y)) <= (25))
+                jsConsole.writeLine(true);
+
+            else
+                jsConsole.writeLine(false); 
+        }
+    </script>
+
+</body>
+</html>
+

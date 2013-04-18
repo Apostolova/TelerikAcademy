@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+   <!-- Write an expression that calculates rectangle’s area by given width and height.-->
+
+<body>
+    <div id="input">
+    <div class="input">
+    <label for="first">Width:</label>
+    <input type="text" id="first"/>
+    <label for="second">Height:</label>
+    <input type="text" id="second"/>
+    </div>
+    <div id="button">
+    <a href="#" onclick="RestangleArea()">Check</a>
+    </div>
+    </div>
+
+     <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function RestangleArea() {
+            var width = jsConsole.readFloat("#first");
+            var height = jsConsole.readFloat("#second");
+            jsConsole.write("Area is:");
+            jsConsole.writeLine(width * height);
+        }
+    </script>
+
+</body>
+</html>

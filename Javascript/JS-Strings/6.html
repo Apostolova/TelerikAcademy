@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        Write a function that extracts the content of a html page given as text.<br />
+        The function should return anything that is in a tag, without the tags:
+    </div>
+    <script>
+
+        function remove(text) {
+            var indexStart = text.indexOf("<", 0);
+            var indexEnd = text.indexOf(">", indexStart);
+            while (indexEnd > -1 || indexStart > -1) {
+                
+                var removed = text.substring(indexStart, indexEnd + 1);
+                text = text.replace(removed, "");
+                indexStart++;
+                indexEnd += 2;
+                indexStart = text.indexOf("<", indexStart + 1);
+                indexEnd = text.indexOf(">", indexStart);
+            }
+            return text;
+
+        }
+        var text = "<html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>";
+        console.log("The text:");
+        console.log(text);
+        console.log("The text, after remove tags:");
+        console.log(remove(text));
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+      <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var array = [8, 12, 1, -6, 32, 34, 15];
+        var min = 0;
+        var max = array.length-1;
+        var key = 34;
+        var mid ;
+        var index ;
+                   
+        while (min <= max )
+        {
+            mid = Math.round((min + max) / 2);
+           
+            if (array[mid] == key)
+            {
+                
+                index = mid;
+                break;
+            }
+            else if (array[mid] < key)
+            {
+                min = mid + 1;
+            }
+            else
+            {
+                
+                max = mid - 1;
+            }
+        }
+        jsConsole.writeLine(array);
+        jsConsole.writeLine("Search element " + key);
+        jsConsole.writeLine("Index of search element is " + index);
+  
+    </script>
+
+</body>
+</html>

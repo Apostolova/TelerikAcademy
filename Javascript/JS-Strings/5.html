@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        Write a function that replaces non breaking white-spaces in a text with '&nbsp';
+    </div>
+    <script>
+        function whiteSpace(text) {
+            var text1 = '';
+
+            for (var i = 0; i < text.length; i++) {
+                if (text[i] == ' ') {
+                    text1 += '&quot';
+                }
+                else {
+                    text1 += text[i];
+                }
+            }
+            return text1;
+        }
+        var text = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+        console.log(whiteSpace(text));
+    </script>
+
+</body>
+</html>

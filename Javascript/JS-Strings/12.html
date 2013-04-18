@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+   <div>
+       Write a function that creates a HTML UL using a template for every HTML LI.<br />
+       The source of the list should an array of elements. Replace all placeholders marked with –{…}– <br />
+       with the value of the corresponding property of the object. Example: <br />
+       <div data-type="template" id="Div1"> 
+       <strong>-{name}-</strong> <span>-{age}-</span><br />
+   </div>
+
+     <div data-type="template" id="list-item">
+            <strong>-{name}-</strong> <span>-{age}-</span>
+        </div>
+    <script>
+        // Initialize
+        var people = [{ name: "Peter", age: 14 }, { name: "Pesho", age: 21 }, { name: "Vanio", age: 17 }, { name: "Gosho", age: 20 }];
+        var peopleDivList = document.getElementById("list-item");
+        var template = peopleDivList.innerHTML;
+
+        // Populate list
+        var peopleList = Populate(people, template);
+
+        peopleDivList.innerHTML = peopleList;
+
+        function Populate(people, template) {
+            var result = [];
+
+            result.push("<ul>");
+
+            // Actual population
+            for (var i = 0; i < people.length; i++) {
+                var currentListElement = template;
+                result.push("<li>");
+
+                currentListElement = currentListElement.replace(new RegExp('\\{name\\}', "g"), people[i]["name"]);
+                currentListElement = currentListElement.replace(new RegExp('\\{age\\}', "g"), people[i]["age"]);
+
+                result.push(currentListElement);
+                result.push("</li>");
+            }
+
+            result.push("</ul>");
+
+            return result.join('');
+        }
+    </script>
+
+</body>
+</html>
