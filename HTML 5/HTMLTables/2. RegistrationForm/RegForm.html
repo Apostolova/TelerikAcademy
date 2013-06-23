@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Registratio Form</title>
+	</head>
+		<body>
+			<form method="get" action="">
+				<label for="Member Name">Member Name :</label>
+				<input type="text"
+				name="Member Name" required="required"/>*req
+				
+				<br/>
+				<label for="Email">Email :</label>
+				<input type="email"
+				name="Email" required="true" 
+				pattern="[a-zA-Z0-9_*$]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"/>*req
+				
+				</br>
+				<label for="School">School :</label>
+				<input type="text" 
+				name="School" required="required">*req
+				
+				<br/>
+				<input type="image" 
+				src="submit.png" name="submitBtn" alt="submit"/>
+			</form>
+		</body>
+</html>

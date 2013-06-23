@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+	<title>Grid component table</title>
+	<link href ="GridComponentTable.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+	<form method="get" action="">
+		<table border = "1" cellspacing="0" cellpadding="5" id="table">
+			<colgroup>
+				<col span="6"/>
+			</colgroup>
+			<thead id="thead">
+				<tr>
+					<td colspan ="6" id="firstTableRow">Drag a column header and drop it here to group by that column</td>
+				</tr>
+				<tr>
+					<td id="col1">ProductID</td>
+					<td id="col2">Product name</td>
+					<td id="col3">Unit price</td>
+					<td id="col4">Quantity per unit</td>
+					<td id="col5">Units in stock</td>
+					<td id="col6">Discontinued</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="text_box1" class="text_box" id="first_text_box"/>
+					</td>
+					<td>
+						<input type="text" name="text_box2" class="text_box" id="second_text_box"/>
+					</td>
+					<td>
+						<input type="text" name="text_box3" class="text_box" id="third_text_box"/>
+						<input type="image" src="filter.png" class = "button"/>
+					</td>
+					<td>
+						<input type="text" name="text_box4" class="text_box" id="fourth_text_box"/>
+					</td>
+					<td>
+						<input type="text" name="text_box5" class="text_box" id="fifth_text_box"/>
+						<input type="image" src="filter.png" alt="filter.png" class = "button"/>
+					</td>
+					<td>
+						<input type="checkbox" class="center"/>
+						<input type="image" src="filter.png" alt="filter.png" class = "button"/>
+					</td>
+				</tr>
+			</thead>
+			<tfoot id="tfoot">
+				<tr>
+					<td colspan = "6">&nbsp
+						<input type="image" src = "firstpagebutton.png" alt="firstpagebutton.png" class = "button"/>
+						<input type="image" src = "previouspagebutton.png" alt="previouspagebutton.png" class = "button"/>
+						<a href="#" class="decoration" >1</a>
+						<a href="#" class="decoration">2</a>
+						<a href="#" class="decoration">3</a>
+						<a href="#" class="decoration">4</a>                   
+						<a href="#" class="decoration">5</a>
+						<a href="#" class="decoration">6</a>
+						<a href="#" class="decoration">7</a>
+						<a href="#" class="decoration">8</a>
+						<a href="#" class="decoration">9</a>
+						<a href="#" class="decoration">10</a>
+						<a href="#" class="decoration">...</a>
+						<input type="image" src = "nextpagebutton.png" alt="nextpagebutton.png" class = "button"/>
+						<input type="image" src = "lastpagebutton.png" alt="lastpagebutton.png" class = "button"/>
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp Page size:
+						<select id="select">
+							<option value="ten" class="text_box" selected="selected">10</option>
+							<option value="twenty" class="text_box">20</option>
+						</select>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						&nbsp&nbsp&nbsp&nbsp&nbsp 335104 items 33511 pages
+					</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Chang</td>
+					<td>$19.00</td>
+					<td>24 - 12 oz bottles</td>
+					<td>17</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Anissed Syrup</td>
+					<td>$10.00</td>
+					<td>12 - 550 ml bottles</td>
+					<td>13</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Chef Anton's Cajun Seasoning</td>
+					<td>$22.00</td>
+					<td>48 - 6 oz jars</td>
+					<td>53</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Chef Anton's Gumbo Mix</td>
+					<td>$21.35</td>
+					<td>36 boxes</td>
+					<td>0</td>
+					<td>
+						<input type="checkbox" checked/>
+					</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Grandma's Boysenberry Spread</td>
+					<td>$25.00</td>
+					<td>12 - 8 oz jars</td>
+					<td>120</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Uncle Bob's Organic Dried Pears</td>
+					<td>$30.00</td>
+					<td>12 - 1 lb pkgs</td>
+					<td>15</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Northwoods Cranberry Sauce</td>
+					<td>$40.00</td>
+					<td>12 - 12 oz jars</td>
+					<td>6</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Mishi Kobe Niku</td>
+					<td>$97.00</td>
+					<td>18 - 500 g pkgs</td>
+					<td>29</td>
+					<td>
+						<input type="checkbox" checked/>
+					</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Ikura</td>
+					<td>$31.00</td>
+					<td>12 - 200 ml jars</td>
+					<td>31</td>
+					<td>
+						<input type="checkbox"/>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

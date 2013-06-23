@@ -1,0 +1,13 @@
+#first
+{
+	width: 3000px;
+	height: 320px;
+	border-style:none;
+	background-color: #fff;
+}
+div{
+	border-radius:80px;
+	border:solid red;
+	background-color:black;
+	padding-right:40px;
+}

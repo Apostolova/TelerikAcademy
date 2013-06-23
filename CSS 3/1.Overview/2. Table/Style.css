@@ -1,0 +1,42 @@
+﻿
+table 
+{
+    border-collapse: 1px ;
+    border-color: #002299;
+    width: 650px;
+    height: 100px;
+    text-align:left;
+}
+
+table th 
+{
+    background-color: #00CC33;
+    color: #FFFFFF;
+}
+
+th,tr,td,table,body
+{
+	margin: 0;
+	padding: 0;
+    font-family:sans-serif, Arial;
+}
+td, th
+{
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+}
+
+.white 
+{
+        background-color: white;
+}
+
+.beige 
+{
+    background-color: beige;
+}
+
+input type
+{
+	color: #888888;
+}

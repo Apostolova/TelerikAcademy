@@ -1,0 +1,76 @@
+body,html,p,h1,h2{
+	margin:0;
+	padding:0;
+}
+
+body{
+	padding:5px;
+	background:#ffffff;
+	color:#000000;
+	font: normal 14px/16px sans-serif;
+}
+
+.categories{
+	padding:10px;
+	background:#eeeeee;
+	border-radius:6px;
+	color:#222222;
+	float:left;
+}
+
+	.categories h2{
+		margin:10px 0;
+		font-size:16px;
+		font-weight:normal;
+	}
+
+	.inner{
+		margin:36px 0;
+		padding:15px;
+		width:380px;
+		border:1px solid #a6a6a6;
+		background:#ffffff;
+		position:relative;
+		zoom:1;
+	}
+
+	.inner:after{
+		content:"";
+		clear:both;
+		display:block;
+		height:0;
+	}
+
+		.inner img{
+			border:1px solid #a6a6a6;
+			float:left;
+		}
+
+		.inner p{
+		margin-bottom:15px;
+			width:230px;
+			float:right;
+		}
+		
+		.inner p span{
+			font-weight:bold;
+		}
+	
+		.inner .button-wrap{
+			position:absolute;
+			bottom:17px;
+			right:15px;
+		}
+		
+			.inner .button-wrap a{
+				padding: 3px 18px;
+				background:#cc0001 url('../img/button-tile.png') repeat-y 0 0;
+				border:2px outset #cc0001;
+				color:#ffffff;
+				text-decoration:none;
+				text-shadow:1px -1px rgba(255,255,255, .3);
+			}
+			
+			.inner .button-wrap a:active{
+				border:2px inset #cc0001;
+			}

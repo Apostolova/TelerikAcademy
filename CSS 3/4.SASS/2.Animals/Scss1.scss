@@ -1,0 +1,48 @@
+$size-zoom:470px;
+$size-small:190px;
+
+body
+{
+
+margin: 0;
+padding: 0;
+
+
+
+	ul {
+		list-style-type: none;
+
+		li {
+		display: inline-block;
+		margin: 7px;
+		position: relative;
+		width: $size-small;
+		height: $size-small;
+		.zoom{
+			display: block;
+			margin-top: 2px;
+			position: fixed;
+			top: 200px;
+			left: 45px;
+			width: $size-zoom;
+			height: $size-zoom;
+			visibility: hidden;
+			}
+		input{
+			visibility: hidden;
+		}
+
+		input:checked+.zoom{
+			visibility: visible;
+			border: 1px;
+		}
+			
+		}
+	}
+}
+			
+			
+
+			
+			
+	

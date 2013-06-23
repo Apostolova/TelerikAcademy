@@ -1,0 +1,56 @@
+th,tr,td,table,body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+	width: 350px;
+	margin: 20px;
+}
+
+table
+{
+	background:#808080;
+}
+ 
+thead tr th
+{
+	font-size: 25px;
+}
+
+td, th
+{
+	padding: 0 10px 10px 10px;
+	vertical-align: top;
+}
+
+.grey
+{ 
+	color: #C0C0C0;
+	font-weight: normal;
+	text-align: left;
+}
+
+.yellow
+{
+	color: #FFFF99;
+}
+
+.red
+{
+	color: #e60e0c;
+}
+
+.orange
+{
+	color: #FF9900;
+}
+
+.white
+{
+	color: #F8F8F8;
+	font-style: italic;
+}
