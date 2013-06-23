@@ -1,0 +1,5 @@
+c:\users\elena\documents\visual studio 2012\Projects\UnitTesting\School\bin\Debug\School.dll
+c:\users\elena\documents\visual studio 2012\Projects\UnitTesting\School\bin\Debug\School.pdb
+c:\users\elena\documents\visual studio 2012\Projects\UnitTesting\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\UnitTesting\School\obj\Debug\School.dll
+c:\users\elena\documents\visual studio 2012\Projects\UnitTesting\School\obj\Debug\School.pdb

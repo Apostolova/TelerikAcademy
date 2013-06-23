@@ -1,0 +1,17 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".txt" #>
+<#@ import namespace="System.IO"#>
+<#
+   	string T4TemplatePath = Path.GetDirectoryName(Host.TemplateFile);
+#>
+THIS WILL BE WRITTEN TO FILE (ManyOutputsSimple1.txt)
+<#
+	File.WriteAllText(T4TemplatePath+"\\ManyOutputsSimple1.txt", this.GenerationEnvironment.ToString());
+	this.GenerationEnvironment.Remove(0, this.GenerationEnvironment.Length);
+#>
+THIS WILL BE WRITTEN TO FILE (ManyOutputsSimple2.txt)
+<#
+	File.WriteAllText(T4TemplatePath+"\\ManyOutputsSimple2.txt", this.GenerationEnvironment.ToString());
+	this.GenerationEnvironment.Remove(0, this.GenerationEnvironment.Length);
+#>
+	

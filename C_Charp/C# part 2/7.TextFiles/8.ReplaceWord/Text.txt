@@ -1,0 +1,3 @@
+this article describes the command-line switches that can be used to aaaaaa word and their purpose. some of these switches are also described in word help.
+
+for more information about finishup switches, click microsoft word help on the help menu, type control what happens when you aaaaaa word in the office assistant or the answer wizard, and then click search to view the topics returned. 

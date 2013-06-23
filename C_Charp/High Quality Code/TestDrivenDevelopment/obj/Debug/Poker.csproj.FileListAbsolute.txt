@@ -1,0 +1,7 @@
+D:\Terelik\KPK\New folder\bin\Debug\Poker.exe
+D:\Terelik\KPK\New folder\bin\Debug\Poker.pdb
+D:\Terelik\KPK\New folder\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\New folder\obj\Debug\Poker.exe
+D:\Terelik\KPK\New folder\obj\Debug\Poker.pdb
+D:\Terelik\KPK\homeworks\TestDrivenDevelopment\obj\Debug\Poker.exe
+D:\Terelik\KPK\homeworks\TestDrivenDevelopment\obj\Debug\Poker.pdb

@@ -1,0 +1,5 @@
+D:\Terelik\KPK\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.exe
+D:\Terelik\KPK\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.pdb
+D:\Terelik\KPK\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.exe
+D:\Terelik\KPK\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.pdb

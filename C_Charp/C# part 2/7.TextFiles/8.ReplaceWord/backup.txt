@@ -1,0 +1,3 @@
+this article describes the command-line switches that can be used to finish word and their purpose. some of these switches are also described in word help.
+
+For more information about finishup switches, click Microsoft Word Help on the Help menu, type control what happens when you finish word in the Office Assistant or the Answer Wizard, and then click Search to view the topics returned. 

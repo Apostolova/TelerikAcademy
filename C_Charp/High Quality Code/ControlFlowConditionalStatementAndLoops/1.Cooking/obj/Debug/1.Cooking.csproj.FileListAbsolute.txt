@@ -1,0 +1,2 @@
+c:\users\elena\documents\visual studio 2012\Projects\ControlFlowConditionalStatementAndLoops\1.Cooking\bin\Debug\1.Cooking.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\ControlFlowConditionalStatementAndLoops\1.Cooking\obj\Debug\1.Cooking.csprojResolveAssemblyReference.cache

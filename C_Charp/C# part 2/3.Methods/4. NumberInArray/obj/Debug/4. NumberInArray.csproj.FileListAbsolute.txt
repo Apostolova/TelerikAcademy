@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.Methods\4. NumberInArray\bin\Debug\_4.NumberInArray.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.Methods\4. NumberInArray\obj\Debug\4. NumberInArray.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.Methods\4. NumberInArray\bin\Debug\_4.NumberInArray.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.Methods\4. NumberInArray\bin\Debug\_4.NumberInArray.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.Methods\4. NumberInArray\obj\Debug\_4.NumberInArray.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\3.Methods\4. NumberInArray\obj\Debug\_4.NumberInArray.pdb

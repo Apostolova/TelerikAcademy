@@ -1,0 +1,5 @@
+Stream is the abstract
+A stream is an abstraction of a sequence of bytes,
+an inter-process communication pipe,
+ classes provide a generic view of these different 
+from the specific details of the operating system and the underlying devices.

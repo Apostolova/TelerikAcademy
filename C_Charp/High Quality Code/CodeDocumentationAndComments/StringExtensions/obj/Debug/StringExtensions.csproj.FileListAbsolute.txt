@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\CodeDocumentationAndComments\StringExtensions\bin\Debug\StringExtensions.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\CodeDocumentationAndComments\StringExtensions\obj\Debug\StringExtensions.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\CodeDocumentationAndComments\StringExtensions\bin\Debug\StringExtensions.exe
+c:\users\elena\documents\visual studio 2012\Projects\CodeDocumentationAndComments\StringExtensions\bin\Debug\StringExtensions.pdb
+c:\users\elena\documents\visual studio 2012\Projects\CodeDocumentationAndComments\StringExtensions\obj\Debug\StringExtensions.exe
+c:\users\elena\documents\visual studio 2012\Projects\CodeDocumentationAndComments\StringExtensions\obj\Debug\StringExtensions.pdb

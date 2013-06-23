@@ -1,0 +1,12 @@
+D:\Terelik\KPK\New folder (2)\bin\Debug\SolarSystem.exe
+D:\Terelik\KPK\New folder (2)\bin\Debug\SolarSystem.pdb
+D:\Terelik\KPK\New folder (2)\obj\Debug\SolarSystem.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\New folder (2)\obj\Debug\MainWindow.g.cs
+D:\Terelik\KPK\New folder (2)\obj\Debug\App.g.cs
+D:\Terelik\KPK\New folder (2)\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Terelik\KPK\New folder (2)\obj\Debug\SolarSystem_MarkupCompile.cache
+D:\Terelik\KPK\New folder (2)\obj\Debug\SolarSystem_MarkupCompile.lref
+D:\Terelik\KPK\New folder (2)\obj\Debug\MainWindow.baml
+D:\Terelik\KPK\New folder (2)\obj\Debug\SolarSystem.g.resources
+D:\Terelik\KPK\New folder (2)\obj\Debug\SolarSystem.exe
+D:\Terelik\KPK\New folder (2)\obj\Debug\SolarSystem.pdb

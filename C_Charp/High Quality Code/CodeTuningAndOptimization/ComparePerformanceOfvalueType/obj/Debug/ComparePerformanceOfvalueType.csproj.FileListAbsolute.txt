@@ -1,0 +1,6 @@
+D:\Terelik\KPK\ComparePerformanceOfvalueType\bin\Debug\ComparePerformanceOfvalueType.exe.config
+D:\Terelik\KPK\ComparePerformanceOfvalueType\bin\Debug\ComparePerformanceOfvalueType.exe
+D:\Terelik\KPK\ComparePerformanceOfvalueType\bin\Debug\ComparePerformanceOfvalueType.pdb
+D:\Terelik\KPK\ComparePerformanceOfvalueType\obj\Debug\ComparePerformanceOfvalueType.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\ComparePerformanceOfvalueType\obj\Debug\ComparePerformanceOfvalueType.exe
+D:\Terelik\KPK\ComparePerformanceOfvalueType\obj\Debug\ComparePerformanceOfvalueType.pdb

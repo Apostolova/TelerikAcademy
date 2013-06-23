@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\2.GetMax\bin\Debug\2.GetMax.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\2.GetMax\obj\Debug\2.GetMax.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\2.GetMax\bin\Debug\2.GetMax.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\2.GetMax\bin\Debug\2.GetMax.pdb
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\2.GetMax\obj\Debug\2.GetMax.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\2.GetMax\obj\Debug\2.GetMax.pdb

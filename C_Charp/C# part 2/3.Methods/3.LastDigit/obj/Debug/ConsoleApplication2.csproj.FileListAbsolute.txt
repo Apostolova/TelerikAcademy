@@ -1,0 +1,5 @@
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

@@ -1,0 +1,9 @@
+C:\Users\Elena\Downloads\New folder\ICatalogTest\obj\Debug\ICatalogTest.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Downloads\New folder\ICatalogTest\bin\Debug\ICatalogTest.dll
+C:\Users\Elena\Downloads\New folder\ICatalogTest\bin\Debug\ICatalogTest.pdb
+C:\Users\Elena\Downloads\New folder\ICatalogTest\bin\Debug\KPK-Practical-Exam.exe
+C:\Users\Elena\Downloads\New folder\ICatalogTest\bin\Debug\PowerCollections.dll
+C:\Users\Elena\Downloads\New folder\ICatalogTest\bin\Debug\KPK-Practical-Exam.pdb
+C:\Users\Elena\Downloads\New folder\ICatalogTest\bin\Debug\PowerCollections.xml
+C:\Users\Elena\Downloads\New folder\ICatalogTest\obj\Debug\ICatalogTest.dll
+C:\Users\Elena\Downloads\New folder\ICatalogTest\obj\Debug\ICatalogTest.pdb

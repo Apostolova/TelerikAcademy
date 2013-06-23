@@ -1,0 +1,5 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\ControlFlowConditionalStatementAndLoops\RefactorLoops\bin\Debug\RefactorLoops.exe.config
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\ControlFlowConditionalStatementAndLoops\RefactorLoops\bin\Debug\RefactorLoops.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\ControlFlowConditionalStatementAndLoops\RefactorLoops\bin\Debug\RefactorLoops.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\ControlFlowConditionalStatementAndLoops\RefactorLoops\obj\Debug\RefactorLoops.exe
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\ControlFlowConditionalStatementAndLoops\RefactorLoops\obj\Debug\RefactorLoops.pdb

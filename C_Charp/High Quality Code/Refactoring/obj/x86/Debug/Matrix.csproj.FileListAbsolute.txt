@@ -1,0 +1,6 @@
+D:\Terelik\KPK\New folder (2)\bin\Debug\GameFifteen.exe
+D:\Terelik\KPK\New folder (2)\bin\Debug\GameFifteen.pdb
+D:\Terelik\KPK\New folder (2)\obj\x86\Debug\GameFifteen.exe
+D:\Terelik\KPK\New folder (2)\obj\x86\Debug\GameFifteen.pdb
+D:\Terelik\KPK\homeworks\Refactoring\obj\x86\Debug\GameFifteen.exe
+D:\Terelik\KPK\homeworks\Refactoring\obj\x86\Debug\GameFifteen.pdb

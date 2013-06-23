@@ -1,0 +1,14 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\bin\Debug\TestSchool.dll
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\bin\Debug\TestSchool.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\bin\Debug\School.dll
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\bin\Debug\School.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\obj\Debug\TestSchool.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\obj\Debug\TestSchool.dll
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\TestSchool\obj\Debug\TestSchool.pdb
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\bin\Debug\TestSchool.dll
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\bin\Debug\TestSchool.pdb
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\bin\Debug\School.dll
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\bin\Debug\School.pdb
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\obj\Debug\TestSchool.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\obj\Debug\TestSchool.dll
+D:\Terelik\KPK\homeworks\UnitTesting\TestSchool\obj\Debug\TestSchool.pdb

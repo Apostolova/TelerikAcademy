@@ -1,0 +1,6 @@
+D:\Terelik\KPK\New folder (2)\ComparePerformanceForFloatingPointValues\bin\Debug\ComparePerformanceForFloatingPointValues.exe.config
+D:\Terelik\KPK\New folder (2)\ComparePerformanceForFloatingPointValues\bin\Debug\ComparePerformanceForFloatingPointValues.exe
+D:\Terelik\KPK\New folder (2)\ComparePerformanceForFloatingPointValues\bin\Debug\ComparePerformanceForFloatingPointValues.pdb
+D:\Terelik\KPK\New folder (2)\ComparePerformanceForFloatingPointValues\obj\Debug\ComparePerformanceForFloatingPointValues.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\New folder (2)\ComparePerformanceForFloatingPointValues\obj\Debug\ComparePerformanceForFloatingPointValues.exe
+D:\Terelik\KPK\New folder (2)\ComparePerformanceForFloatingPointValues\obj\Debug\ComparePerformanceForFloatingPointValues.pdb

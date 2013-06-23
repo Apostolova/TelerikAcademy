@@ -1,0 +1,6 @@
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\1.AskName\bin\Debug\1.AskName.exe.config
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\1.AskName\bin\Debug\1.AskName.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\1.AskName\bin\Debug\1.AskName.pdb
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\1.AskName\obj\Debug\1.AskName.csprojResolveAssemblyReference.cache
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\1.AskName\obj\Debug\1.AskName.exe
+c:\users\elena\documents\visual studio 2012\Projects\3.Methods\1.AskName\obj\Debug\1.AskName.pdb

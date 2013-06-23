@@ -1,0 +1,10 @@
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\School\bin\Debug\School.dll
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\School\bin\Debug\School.pdb
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\School\obj\Debug\SchoolHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\School\obj\Debug\School.dll
+C:\Users\Elena\Documents\Visual Studio 2012\Projects\UnitTesting\School\obj\Debug\School.pdb
+D:\Terelik\KPK\homeworks\UnitTesting\School\bin\Debug\School.dll
+D:\Terelik\KPK\homeworks\UnitTesting\School\bin\Debug\School.pdb
+D:\Terelik\KPK\homeworks\UnitTesting\School\obj\Debug\SchoolHierarchy.csprojResolveAssemblyReference.cache
+D:\Terelik\KPK\homeworks\UnitTesting\School\obj\Debug\School.dll
+D:\Terelik\KPK\homeworks\UnitTesting\School\obj\Debug\School.pdb
